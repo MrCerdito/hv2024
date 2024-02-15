@@ -1,6 +1,7 @@
-body {
-
-padding: 0px;
+body{
+	background: #DADADA;
+	width:1000px;
+  margin:0px auto;
 }
 .parent {
 display: grid;
@@ -17,25 +18,26 @@ grid-row-gap: 0px;
 .div1{
 	width: 100%;
 	height: 200px;
-	background:red;
+	background:#76A1DC;
 }
 
 .div2{
-	width: 100%;
+	width: 99%;
 	height: 800px;
-	background:pink;
+	background:#76A1DC;
 }
 
 .div3{
 	width: 100%;
 	height: 800px;
-	background:red;
+	background:white;
 }
 
 #foto{
+	position: relative;
 	width: 33%;
 	height: 200px;
-	background:greenyellow;
+	background:#76A1DC;
 	float: left;
 }
 
@@ -43,15 +45,86 @@ grid-row-gap: 0px;
 	width: 67%;
 	height: 200px;
 	float: right;
-	background:yellow;
+	background:white;
 }
 
 #textarea{
-	padding: 50px;
+	padding: 20px;
 }
 
 .text{
 	padding: 0px;
-	
-		margin: 0px;
+	margin: 0px;
+	font-family: arial;
+	margin-bottom: 20px;
+
+
+}
+
+.sub-titles{
+	 font-family:  Arial, sans-serif;
+	 font-size: 20px;
+	 color:white;
+}
+
+.sub_titles2{
+	 font-family:  Arial, sans-serif;
+	 font-size: 15px;
+	 font-style:  italic;
+	 color:white;
+}
+
+
+.textdown{
+
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+
+}
+
+#section-idiomas{
+	padding: 20px;
+}
+#foto img{
+	height: 100%;
+    width: 100%;
+	position: absolute;
+}
+
+ hr {
+       background: url(http://placekitten.com/800/100) no-repeat;
+       border: 0;
+
+       height: 100px;
+       width: 100%;
+       height: 1px; background: white;
+    }
+
+
+    #hrBlack{
+       background: url(http://placekitten.com/800/100) no-repeat;
+       border: 0;
+
+       height: 100px;
+       width: 100%;
+       height: 1px; background: black;
+    
+    }
+
+li{
+	font-family:  Arial, sans-serif;
+	color:white;
+
+}
+
+#perfilTextWhite{
+	font-size: 20px;
+	font-family:  Arial, sans-serif;
+	padding: 20px;margin-bottom: -35px;
+}
+
+#perfilText{
+	padding: 20px;
+
 }
